@@ -4,6 +4,12 @@
 const isNetlify = process.env.NETLIFY === 'true' || process.env.NETLIFY === '1'
 const useStaticExport = isNetlify // Only export when NETLIFY env var is set
 
+// Debug logging (will show in build logs)
+console.log('🔍 Build Configuration:')
+console.log('  - NETLIFY env:', process.env.NETLIFY)
+console.log('  - VERCEL env:', process.env.VERCEL)
+console.log('  - Using static export:', useStaticExport)
+
 const nextConfig = {
   reactStrictMode: true,
   // Only use static export when explicitly building for Netlify
