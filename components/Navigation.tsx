@@ -16,13 +16,14 @@ const Navigation = () => {
   }, [])
 
   const navLinks = [
-    { href: '#home', label: 'Home' },
-    { href: '#profile', label: 'Profil' },
-    { href: '#skills', label: 'Kompetenzen' },
-    { href: '#experience', label: 'Berufserfahrung' },
-    { href: '#education', label: 'Ausbildung' },
-    { href: '#projects', label: 'Projekte' },
-    { href: '#contact', label: 'Kontakt' },
+    { href: '/', label: 'Home' },
+    { href: '/#profile', label: 'Profil' },
+    { href: '/#skills', label: 'Kompetenzen' },
+    { href: '/#experience', label: 'Berufserfahrung' },
+    { href: '/#education', label: 'Ausbildung' },
+    { href: '/#projects', label: 'Projekte' },
+    { href: '/teaching', label: 'Lehrmaterialien' },
+    { href: '/#contact', label: 'Kontakt' },
   ]
 
   return (
@@ -36,7 +37,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           <div className="flex-shrink-0">
-            <a href="#home" className="text-xl md:text-2xl font-bold text-primary-dark">
+            <a href="/" className="text-xl md:text-2xl font-bold text-primary-dark">
               Mohsen Abyari
             </a>
           </div>

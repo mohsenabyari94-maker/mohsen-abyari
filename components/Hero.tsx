@@ -32,7 +32,7 @@ const Hero = () => {
                   Lebenslauf herunterladen
                 </a>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="btn-outline border-primary-turquoise text-white hover:bg-primary-turquoise inline-flex items-center gap-2"
                 >
                   <EnvelopeIcon className="h-5 w-5" />

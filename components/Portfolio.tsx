@@ -2,6 +2,7 @@ import {
   ArrowDownTrayIcon,
   AcademicCapIcon,
   CodeBracketIcon,
+  BookOpenIcon,
 } from '@heroicons/react/24/outline'
 import LinkIcon from './icons/LinkIcon'
 
@@ -16,12 +17,20 @@ const Portfolio = () => {
       color: 'bg-primary-dark',
     },
     {
+      title: 'Lehrmaterialien',
+      description: 'Kurse, Videos & Pakete zu QMS & Regulatory Affairs',
+      icon: BookOpenIcon,
+      href: '/teaching',
+      download: false,
+      color: 'bg-primary-turquoise',
+    },
+    {
       title: 'Zertifikate',
       description: 'Zeugnisse und Zertifizierungen',
       icon: AcademicCapIcon,
       href: '#certificates',
       download: false,
-      color: 'bg-primary-turquoise',
+      color: 'bg-blue-600',
     },
     {
       title: 'LinkedIn Profil',
@@ -29,16 +38,8 @@ const Portfolio = () => {
       icon: LinkIcon,
       href: 'https://linkedin.com/in/mohsen-abyari',
       download: false,
-      color: 'bg-blue-600',
-      external: true,
-    },
-    {
-      title: 'GitHub (optional)',
-      description: 'Code-Repositories und Projekte',
-      icon: CodeBracketIcon,
-      href: '#github',
-      download: false,
       color: 'bg-gray-700',
+      external: true,
     },
   ]
 
