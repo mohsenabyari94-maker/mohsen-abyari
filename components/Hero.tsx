@@ -39,7 +39,7 @@ const Hero = () => {
                   Kontakt aufnehmen
                 </a>
                 <a
-                  href="https://linkedin.com/in/mohsen-abyari"
+                  href="https://www.linkedin.com/in/mohsen-abyari-rizi/?originalSubdomain=de"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-outline border-white text-white hover:bg-white hover:text-primary-dark inline-flex items-center gap-2"

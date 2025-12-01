@@ -6,7 +6,7 @@ const WorkExperience = () => {
       company: 'Glomin GmbH',
       position: 'Quality Assurance & Regulatory Affairs Specialist',
       location: 'Deutschland',
-      period: '2020 - Heute',
+      period: '2020 - August 2024',
       description: [
         'Entwicklung und Implementierung von Qualitätsmanagementsystemen nach ISO 13485',
         'Erstellung und Pflege technischer Dokumentation gemäß MDR-Anforderungen',

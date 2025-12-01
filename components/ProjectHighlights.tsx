@@ -9,6 +9,12 @@ import {
 const ProjectHighlights = () => {
   const highlights = [
     {
+      title: 'Glomin GmbH – QMS & Regulatory Affairs',
+      icon: CheckCircleIcon,
+      description:
+        'Quality Assurance & Regulatory Affairs Specialist bei Glomin GmbH (2020 - August 2024). Entwicklung und Implementierung von Qualitätsmanagementsystemen nach ISO 13485, Erstellung technischer Dokumentation gemäß MDR, Durchführung von Audits und Risikomanagement nach ISO 14971 für Medizinprodukte.',
+    },
+    {
       title: 'QMS-Implementierung',
       icon: CheckCircleIcon,
       description:
