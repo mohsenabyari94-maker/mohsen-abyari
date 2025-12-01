@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
-// Detect deployment platform
-const isVercel = process.env.VERCEL === '1'
+// Only use static export when explicitly building for Netlify
+// Default: No static export (works best for Vercel and most platforms)
 const isNetlify = process.env.NETLIFY === 'true' || process.env.NETLIFY === '1'
-// Use static export for Netlify, but NOT for Vercel (Vercel works better natively)
-const useStaticExport = !isVercel // Export for Netlify and local builds, but not for Vercel
+const useStaticExport = isNetlify // Only export when NETLIFY env var is set
 
 const nextConfig = {
   reactStrictMode: true,
-  // Only use static export when NOT on Vercel
+  // Only use static export when explicitly building for Netlify
   ...(useStaticExport && { output: 'export' }),
   images: {
     // Vercel can optimize images natively, static export cannot
